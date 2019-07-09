@@ -7,19 +7,19 @@
     android:padding="20dp"    >
 
     <Switch
-        android:id="@+id/Switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="시작함"
-        android:checked="false"
-        android:textOn="시작함"
-        android:textOff="중지"
-        android:showText="true"
-        android:textSize="20dp"
-        android:textColor="#ff0000"
-        android:textStyle="bold"
-        android:typeface="monospace"
-        />
+    android:id="@+id/Switch1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="시작함"
+    android:checked="false"
+    android:textOn="시작함"
+    android:textOff="중지"
+    android:showText="true"
+    android:textSize="20dp"
+    android:textColor="#ff0000"
+    android:textStyle="bold"
+    android:typeface="monospace"
+    />
 
     <!--<TextView
         android:id="@+id/Text1"
@@ -29,12 +29,12 @@
         android:textSize="20dp"
         />
 -->
-    <CheckBox
+  <!--  <CheckBox
         android:id="@+id/ChkAgree"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="시작함"
-        />
+        />-->
     <TextView
         android:id="@+id/Text2"
         android:layout_width="wrap_content"
@@ -86,9 +86,18 @@
         />
     <Button
         android:id="@+id/exitButton"
+        android:text="종료하기"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        />
 
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="초기화"
+        android:visibility="invisible"/>
 
 </LinearLayout>
 
